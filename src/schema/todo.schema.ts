@@ -16,4 +16,4 @@ export class Todo {
   status: TodoStatus;
 }
 
-export const userSchema = SchemaFactory.createForClass(Todo);
+export const todoSchema = SchemaFactory.createForClass(Todo);
